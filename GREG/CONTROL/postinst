@@ -1,11 +1,11 @@
 #!/bin/sh
 if `grep -q 'osd.language=pl_PL' </etc/enigma2/settings`; then
   echo ""
-  echo "Skin zainstalowany. Przeładuj teraz GUI!"
+  echo "  Przeładuj teraz GUI!"
   echo ""
 else
   echo ""
-  echo "Skin installed. You should restart GUI!"
+  echo "  You should restart GUI!"
   echo ""
 fi 
 sleep 5
