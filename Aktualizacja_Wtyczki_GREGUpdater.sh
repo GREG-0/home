@@ -11,7 +11,7 @@ sleep 3
 echo 'Rozpoczynam_Proces...'
 echo ""
 sleep 5
-rm --rf /usr/scripts 
+rm --rf /usr/scripts/*
 rm -f /tmp/GREGUpdater.tar.gz 2>/dev/null
 wget -q -O /tmp/GREGUpdater.tar.gz "http://gregfhd.freeddns.org:2668/share.cgi?ssid=0qAPBWH&fid=0qAPBWH&filename=GREGUpdater.tar.gz&openfolder=forcedownload&GREGUpdater.tar.gz" 2>/dev/null
 
