@@ -39,7 +39,7 @@ if test -f /tmp/GREGUpdater.tar.gz
 		echo ""
 		echo "Trwa instalacja,Plugin,GREGUpdater czekaj..."
 		echo ""
-		rm -Rf /usr/scripts
+		rm -Rf /usr/scripts/*
 		rm -fR /usr/lib/enigma2/python/Plugins/Extensions/GREGUpdater/*
 		tar -zxf  /tmp/GREGUpdater.tar.gz -C / 2>/dev/null
 		rm -f /tmp/GREGUpdater.tar.gz 2>/dev/null
