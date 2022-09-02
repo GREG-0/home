@@ -1,6 +1,0 @@
-vlatest = "1"
-
-import sys
-import os
-import urllib
-current_version = """1.4"""
